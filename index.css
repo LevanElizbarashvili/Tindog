@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.big{
+    max-width: 580px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* header icons */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.profile-chat-icon {
+    width: 10%;
+    height: auto;
+}
+
+header .logo-icon {
+    max-width: 20%;
+    height: 100%;
+}
+
+.logo{
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* main body*/
+/* @media (max-width:800px){
+    body{
+        width: 98%;
+    }
+} */
+
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 0 20px;
+    margin-bottom: 15px;
+}
+
+.name-age{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* buttons */
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns .icon-cross,
+.icon-heart {
+    border: none;
+    background-color: #fff;
+    height: auto;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.icon-heart:focus,
+.icon-heart:hover{
+    background-color: #DBFFF4;
+}
+
+.icon-cross:focus,
+.icon-cross:hover{
+    background-color: #FFE7EF;
+}
+
+/* backgroud image classes */
+
+.Rex{
+    background-image: url("images/dog-rex.jpg");
+}
+
+.Bella{
+    background-image: url("images/dog-bella.jpg");
+}
+
+.Teddy{
+    background-image: url("images/dog-teddy.jpg");
+}
+
+.img-properties{
+    background-size: cover;
+    max-width: 100%;
+    height: 800px;
+    border-radius: 2%;
+    margin-bottom: 10px;
+}
+
+.badge{
+    align-items: center;
+    width: 40%;
+    margin-bottom: 520px;
+    margin-left: 25px;
+    transform: rotate(-45deg);
+}
